@@ -21,7 +21,6 @@ height.append(r)                                              #to get the height
 
 print('\v')
 
-
 import time
 start_time = time.time()
 import mergesort
@@ -34,7 +33,6 @@ height.append(r2)                                          #to get the height fo
 
 
 print('\v')
-
 
 import time
 start_time = time.time()
@@ -49,7 +47,6 @@ height.append(r3)                                                       #to get 
 
 print('\v')
 
-
 import time
 start_time = time.time()
 import insertionsort
@@ -63,7 +60,6 @@ height.append(r4)                                                    #to get the
 
 print('\v')
 
-
 import time
 start_time = time.time()
 import heapsort
@@ -75,11 +71,9 @@ r5=time.time() - start_time
 print("--- %s seconds for Heapsort ---" % (r5))                            #getting the running time
 height.append(r5)                                                          #to get the height for the graph
 
-
 print('\v')
+
 tick_label=[]
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 left = [1, 2, 3, 4, 5]                                                    # x-coordinates of left sides of bars 
